@@ -1,43 +1,47 @@
-body {
-  background-color: rgb(0, 143, 253);
-}
-
-header {
-  width: 500px;
-  height: 250px;
-  background-color: rgb(2, 142, 70);
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  color: blueviolet;
-}
-
-.item {
-  color: rgb(3, 57, 1);
-}
-p{
-  color: black;
-}
-hr{
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin: 40px 60px 80px 10px;
-  margin: 120px 200px;
-  margin: 20px 30px 20px;
-}
 .caja{
-  width: 600px;
-  height: 300px;
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 420px;
+  background: #fff;
+  box-shadow: 5px 5px 10px #000000;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.spider-man{
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 200px;
+}
+
+.text {
+  text-align: center;
+  color: red;
+  font-size: 30px;
+}
+
+.parrafo{
+  color: black;
+  margin: 10px;
+  font-size: 15px;
+}
+
+.botton{
   background: red;
-  margin: 80px;
-  border: 15px solid black;
-  color: aliceblue;
-  padding: 20px;
-  padding-right: 50px;
-  padding-bottom: 50px;
+  height: 40px;
+  width: 80px;
+  color: azure;
+  border-radius: 6px;
+  place-content: center;
+  margin-bottom: 50px;
+}
+
+.Goku{
+  display: block;
+  margin: 0px auto;
+  width: 400px;
+  height: 600px;
+  filter: drop-shadow(5px 5px 10px #ffee00);
 }
