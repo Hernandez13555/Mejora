@@ -1,0 +1,88 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+:root {
+  --card: #ffffff;
+  --color: #f20000;
+  --calor2: black;
+  --ancho: 1200px;
+  --alto: 70px;
+  --border: 10px;
+}
+
+body {
+  background-image: url(Fondo.jpg);
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  background-color: var(--card);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  background-color: var(--color);
+}
+
+.card h2 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.card p {
+  padding: 0 20px 20px;
+  color: #0a0a0a;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: var(--border);
+  font-size: 16px;
+  background-color: var(--calor2);
+  color: var(--color);
+  cursor: pointer;
+  border: solid 1px var(--color);
+}
+
+button:hover {
+  color: var(--card);
+  border-radius: var(--border);
+  background-color: var(--color);
+  border: solid 1px var(--card);
+}
