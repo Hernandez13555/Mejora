@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfiles en Redes Sociales</title>
+    <link rel="stylesheet" href="Componentes.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Facebook Profile -->
+      <div class="profile facebook">
+        <h2>Facebook Profile</h2>
+        <img src="Imagenes/facebook.jfif" alt="Facebook Profile Picture" />
+        <button onclick="toggleInfo('facebook-info', this)">
+          Mostrar Información
+        </button>
+        <div class="info" id="facebook-info">
+          <p><strong>Nombre:</strong> Will Smith</p>
+          <p><strong>Amigos:</strong> 250</p>
+          <p><strong>Publicaciones:</strong> 180</p>
+          <p>
+            <strong>Biografía:</strong> Apasionado de la tecnología y los
+            viajes. Siempre en busca de nuevas aventuras.
+          </p>
+          <p><strong>Fecha de Nacimiento:</strong> 15 de Marzo, 1992</p>
+          <p><strong>Ubicación:</strong> Los Ángeles, EE.UU.</p>
+        </div>
+      </div>
+
+      <!-- Messenger Profile -->
+      <div class="profile messenger">
+        <h2>Messenger Profile</h2>
+        <img src="Imagenes/messenger.jfif" alt="Messenger Profile Picture" />
+        <button onclick="toggleInfo('messenger-info', this)">
+          Mostrar Información
+        </button>
+        <div class="info" id="messenger-info">
+          <p><strong>Nombre:</strong> Bob Johnson</p>
+          <p><strong>Mensajes:</strong> 600</p>
+          <p><strong>Activo:</strong> Sí</p>
+          <p><strong>Última conexión:</strong> Hace 5 minutos</p>
+          <p>
+            <strong>Biografía:</strong> Entusiasta de la fotografía y el cine
+            independiente. Siempre dispuesto a ayudar.
+          </p>
+          <p><strong>Ubicación:</strong> San Francisco, EE.UU.</p>
+        </div>
+      </div>
+
+      <!-- Instagram Profile -->
+      <div class="profile instagram">
+        <h2>Instagram Profile</h2>
+        <img src="Imagenes/instagram.jfif" alt="Instagram Profile Picture" />
+        <button onclick="toggleInfo('instagram-info', this)">
+          Mostrar Información
+        </button>
+        <div class="info" id="instagram-info">
+          <p><strong>Nombre:</strong> Chris Evans</p>
+          <p><strong>Seguidores:</strong> 450</p>
+          <p><strong>Publicaciones:</strong> 200</p>
+          <p>
+            <strong>Biografía:</strong> Amante del arte y la moda. Capturando
+            momentos únicos a través de mi cámara.
+          </p>
+          <p><strong>Intereses:</strong> Arte, Moda, Viajes</p>
+          <p><strong>Ubicación:</strong> Miami, EE.UU.</p>
+        </div>
+      </div>
+
+      <!-- Twitter Profile -->
+      <div class="profile twitter">
+        <h2>Twitter Profile</h2>
+        <img src="Imagenes/twitter.jfif" alt="Twitter Profile Picture" />
+        <button onclick="toggleInfo('twitter-info', this)">
+          Mostrar Información
+        </button>
+        <div class="info" id="twitter-info">
+          <p><strong>Nombre:</strong> Dave Wilson</p>
+          <p><strong>Seguidores:</strong> 350</p>
+          <p><strong>Tweets:</strong> 300</p>
+          <p>
+            <strong>Biografía:</strong> Experto en tecnología y videojuegos.
+            Compartiendo pensamientos y noticias sobre la industria.
+          </p>
+          <p><strong>Fecha de Ingreso:</strong> Junio, 2015</p>
+          <p><strong>Ubicación:</strong> Chicago, EE.UU.</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function toggleInfo(infoId, button) {
+        const info = document.getElementById(infoId);
+        if (info.style.display === "none" || info.style.display === "") {
+          info.style.display = "block";
+          button.textContent = "Ocultar Información";
+        } else {
+          info.style.display = "none";
+          button.textContent = "Mostrar Información";
+        }
+      }
+    </script>
+  </body>
+</html>
