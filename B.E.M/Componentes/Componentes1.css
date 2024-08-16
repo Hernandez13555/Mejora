@@ -1,4 +1,4 @@
-body {
+.page {
   background-image: url(Imagenes/fondo.jpg);
   font-family: Arial, sans-serif;
   background-color: #ffffff;
@@ -13,7 +13,7 @@ body {
   box-sizing: border-box;
 }
 
-.container {
+.page__container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -32,14 +32,14 @@ body {
   box-sizing: border-box;
 }
 
-.profile img {
+.profile__image {
   width: 100px;
   height: 100px;
   border-radius: 50%;
   margin-bottom: 10px;
 }
 
-button {
+.profile__button {
   margin-top: 10px;
   padding: 10px 20px;
   border: none;
@@ -50,29 +50,29 @@ button {
   font-size: 16px;
 }
 
-button:hover {
+.profile__button:hover {
   background-color: #0006b3;
   transition: 1s;
 }
 
-.info {
+.profile__info {
   display: none;
   margin-top: 10px;
   text-align: left;
 }
 
-.facebook {
+.profile--facebook {
   border-left: 5px solid #0644c9;
 }
 
-.messenger {
+.profile--messenger {
   border-left: 5px solid #00b2ff;
 }
 
-.instagram {
+.profile--instagram {
   border-left: 5px solid #b80627;
 }
 
-.twitter {
+.profile--twitter {
   border-left: 5px solid #ff214a;
 }
