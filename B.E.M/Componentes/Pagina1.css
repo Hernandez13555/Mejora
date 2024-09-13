@@ -1,0 +1,73 @@
+@import url(Componentes.css);
+
+/* Ejercicio 1: Perfiles de Redes Sociales */
+.perfiles-redes {
+  padding: 20px;
+}
+
+.perfiles-redes__titulo {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.perfiles-redes__contenedor {
+  display: flex;
+  gap: 20px;
+}
+
+.perfiles-redes_card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 200px; 
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+}
+
+.perfiles-redes_card--facebook {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.perfiles-redes_card--messenger {
+  background-color: #00b2ff;
+  color: #fff;
+}
+
+.perfiles-redes_card--instagram {
+  background-color: #e1306c;
+  color: #fff;
+}
+
+.perfiles-redes_card--twitter {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+.perfiles-redes__imagen {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  display: block;
+  
+}
+
+.red-social__nombre {
+  font-size: 28px;
+  margin: 10px 0;
+  color: black;
+}
+
+.perfiles-redes__nombre {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.perfiles-redes__info {
+  font-size: 14px;
+}

@@ -1,0 +1,40 @@
+@import url(Componentes.css);
+
+/* Ejercicio 5: Cuadro de Búsqueda */
+.cuadro-busqueda {
+  padding: 20px;
+}
+
+.cuadro-busqueda__titulo {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.cuadro-busqueda__contenedor {
+  display: flex;
+  gap: 10px;
+}
+
+.cuadro-busqueda__input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  flex: 1;
+}
+
+.cuadro-busqueda__boton {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cuadro-busqueda__boton:hover {
+  background-color: #00ff0d;
+}
+.cuadro-busqueda__boton:active {
+  background-color: #000b01;
+  transform: scale(0.95);
+}

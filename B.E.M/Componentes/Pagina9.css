@@ -1,0 +1,35 @@
+@import url(Componentes.css);
+
+/* Ejercicio 9: Testimonios */
+.testimonios {
+  padding: 20px;
+}
+
+.testimonios__titulo {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.testimonios__contenedor {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.testimonios__item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonios__cita {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.testimonios__cliente {
+  font-size: 14px;
+  color: #777;
+  margin-top: 10px;
+}

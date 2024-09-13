@@ -1,0 +1,31 @@
+@import url(Componentes.css);
+
+/* Ejercicio 8: Menú de Navegación */
+.menu-navegacion {
+  padding: 20px;
+  background-color: #333;
+}
+
+.menu-navegacion__titulo {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.menu-navegacion__lista {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-navegacion_item {
+  list-style: none;
+}
+
+.menu-navegacion_enlace {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-navegacion_enlace:hover {
+  text-decoration: underline;
+}

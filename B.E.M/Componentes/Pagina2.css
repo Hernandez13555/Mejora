@@ -1,0 +1,73 @@
+@import url(Componentes.css);
+
+/* Ejercicio 2: Botones Interactivos */
+.botones-interactivos {
+  padding: 20px;
+}
+
+.botones-interactivos__titulo {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.botones-interactivos__contenedor {
+  display: flex;
+  gap: 10px;
+}
+
+.botones-interactivos_boton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Botón aceptar */
+.botones-interactivos_boton--aceptar {
+  background-color: #4caf50;
+}
+.botones-interactivos_boton--aceptar:hover {
+  background-color: #00ff0d;
+}
+.botones-interactivos_boton--aceptar:active {
+  background-color: #000b01;
+  transform: scale(0.95);
+}
+
+/* Botón cancelar */
+.botones-interactivos_boton--cancelar {
+  background-color: #f44336;
+}
+.botones-interactivos_boton--cancelar:hover {
+  background-color: #ff0400;
+}
+.botones-interactivos_boton--cancelar:active {
+  background-color: #000b01;
+  transform: scale(0.95);
+}
+
+/* Botón guardar */
+.botones-interactivos_boton--guardar {
+  background-color: #003b6b;
+}
+.botones-interactivos_boton--guardar:hover {
+  background-color: #0088ff;
+}
+.botones-interactivos_boton--guardar:active {
+  background-color: #000b01;
+  transform: scale(0.95);
+}
+
+/* Botón eliminar */
+.botones-interactivos_boton--eliminar {
+  background-color: #942300;
+}
+.botones-interactivos_boton--eliminar:hover {
+  background-color: #ff4646;
+}
+.botones-interactivos_boton--eliminar:active {
+  background-color: #000b01;
+  transform: scale(0.95);
+}

@@ -1,0 +1,39 @@
+@import url(Componentes.css);
+
+/* Ejercicio 7: Tarjetas de Productos */
+.tarjetas-productos {
+  padding: 20px;
+}
+
+.tarjetas-productos__titulo {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.tarjetas-productos__contenedor {
+  display: flex;
+  gap: 20px;
+}
+
+.tarjetas-productos__item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tarjetas-productos__imagen {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.tarjetas-productos__nombre {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.tarjetas-productos__precio {
+  font-size: 16px;
+  color: #4caf50;
+}
