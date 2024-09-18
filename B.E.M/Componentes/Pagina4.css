@@ -24,7 +24,6 @@
 .galeria-imagenes__item {
   background-color: #fff;
   border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   width: 250px;
   overflow: hidden;
@@ -33,7 +32,6 @@
 
 .galeria-imagenes__item:hover {
   transform: translateY(-10px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .galeria-imagenes__imagen {
